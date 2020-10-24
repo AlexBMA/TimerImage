@@ -1,0 +1,69 @@
+body{
+    min-width: 100vh;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.imagebackgroud{
+    margin: 0;
+    padding: 0;
+}
+
+.imagebackgroud img{
+    width: 100vw;
+    height: 96h; 
+
+}
+
+/* Pozitie stanga sus */
+/* #countdown{
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+} */
+
+
+/* Pozitie dreapta sus */
+/*
+#countdown{
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    right:  0;
+    z-index: 2;
+}
+*/
+
+/* Pozitie sub titlu*/
+#countdown{
+    text-decoration: none;
+    position: fixed;
+    top: 19%;
+    right: 43%;
+    z-index: 2;
+}
+
+
+/* Aici e textul minut sau secunda */
+li {
+    display: inline-block;
+    font-size: 40px;
+    list-style-type: none;
+    padding: 5px;
+    text-transform: none;
+    font-weight: bold;
+  }
+  
+  /* Aici e numarul */
+  li span {
+    display: block;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
